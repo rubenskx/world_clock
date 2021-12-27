@@ -1,0 +1,75 @@
+body{
+
+background:url('1319725.jpg');
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+
+h1{
+    text-align: center;
+    font-size : 5em;
+    color: #15f4ee;
+    font-family: 'Prompt', sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size : 3em;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+}
+
+.flex-box{
+
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-top: 1em;
+    font-size:  5em;
+
+    
+}
+
+.flex-box div{
+    font-size: 47px;
+    padding: 1em;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.flex-box:hover{
+   box-shadow: 16px 31px 14px 0px rgba(0, 0, 0, 0.082);
+}
+
+#box1{
+    margin-left: 5em;
+}
+
+#box8{
+    margin-right: 5em;
+}
+
+#session{
+    font-size: 50px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color:white;
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-family:'Prompt', sans-serif ;
+    font-size: 2em;
+    color:white;
+    padding: 1em;
+    padding-left:6em;
+    padding-right:6em;
+}
